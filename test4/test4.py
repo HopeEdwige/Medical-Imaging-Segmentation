@@ -30,8 +30,8 @@ def save_segmented_nii(segmented_data, original_img, output_path="segmented_imag
 
 if __name__ == "__main__":
     # Remplacez par les chemins d'accès à vos fichiers .nii.gz
-    flair_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-001/day_665/FLAIR.nii.gz"
-    t1ce_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-001/day_665/T1CE.nii.gz"
+    flair_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_423/FLAIR.nii.gz"
+    t1ce_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_423/T1CE.nii.gz"
 
     # Chargement des images FLAIR
     flair_data, flair_img = load_nii_image(flair_file_path)
