@@ -77,7 +77,7 @@ def save_segmented_nii(segmented_data, original_img, output_path="test3/Burdenko
 
 if __name__ == "__main__":
     # Remplacez par le chemin d'accès à votre fichier .nii FLAIR
-    flair_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_174/FLAIR.nii.gz"
+    flair_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_481/FLAIR.nii.gz"
     flair_data, flair_img = load_nii_image(flair_file_path)
 
     if flair_data is not None:
@@ -100,7 +100,7 @@ if __name__ == "__main__":
         save_segmented_nii(segmented_flair_kmeans, flair_img, "segmented_flair_kmeans.nii.gz")
 
     # Remplacez par le chemin d'accès à votre fichier .nii T1CE
-    t1ce_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_174/T1CE.nii.gz"
+    t1ce_file_path = "C:/Users/hdodo/OneDrive/Documents/M1-IBIOM/Projet-S2/IRMFlairetTIC/Burdenko-GBM-018/day_481/T1CE.nii.gz"
     t1ce_data, t1ce_img = load_nii_image(t1ce_file_path)
 
     if t1ce_data is not None:
