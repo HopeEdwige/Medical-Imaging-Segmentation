@@ -12,7 +12,7 @@ def load_nii_image(file_path):
         print(f"Erreur: Le fichier à l'emplacement '{file_path}' n'a pas été trouvé.")
         return None, None
 
-def apply_thresholding(data, threshold):
+def apply_thresholding(data, threshold): #Local Binary Pattern
     """Applique un seuillage simple à l'image.
     Les voxels avec une intensité supérieure au seuil sont mis à 1, sinon à 0."""
     if data is not None:
